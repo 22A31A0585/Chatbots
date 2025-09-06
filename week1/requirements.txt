@@ -1,25 +1,2 @@
-streamlit
-nltk
-Week 1: Emotion-Aware Chatbot 🤖
-
-This is a simple chatbot project built with Python, NLTK, and Streamlit that can analyze user emotions from text input. The chatbot processes the text by:
-
-Tokenizing the input into words using ToktokTokenizer.
-
-Removing stopwords (common words like "the", "is", etc.) to focus on meaningful words.
-
-Removing punctuation to clean the text.
-
-Lemmatizing words using WordNetLemmatizer (converts words to their base form, e.g., “missed” → “miss”).
-
-Performing sentiment analysis with NLTK’s SentimentIntensityAnalyzer to determine the emotion of the user message.
-
-The bot categorizes emotions as:
-
-Positive → displays a happy response.
-
-Negative → displays an empathetic response.
-
-Neutral → displays an acknowledgment.
-
-The UI is built using Streamlit, allowing users to input messages and instantly see the bot’s response and sentiment scores.
+streamlit==1.48.1
+nltk==3.9.1
